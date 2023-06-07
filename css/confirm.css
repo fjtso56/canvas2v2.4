@@ -1,0 +1,126 @@
+
+.contact-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-title {
+      margin-top: 15px;
+      font-size: 20px;
+      margin: 0px;
+      text-align: center;
+    }
+  }
+
+.message {
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    .message {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+.confirm {
+    text-align: center;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+    .confirm {
+        text-align: left;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
+
+.buttons {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+
+
+.modify-btn {
+    margin: 30px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    color: #333;
+    border-radius: 0.7rem;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .modify-btn {
+        margin: 15px;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 15px 20px;
+    }
+}
+
+.modify-btn:hover {
+    color: #48d1cc82;
+}
+
+.submit-btn {
+    margin: 30px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    color: #333;
+    border-radius: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    .submit-btn {
+        margin: 15px;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 15px 20px;
+    }
+}
+
+.submit-btn:hover {
+    color: rgba(255, 0, 0, 0.6);   
+}
+
+header{
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(235, 120, 221, 0.5) 40px);
+      border-bottom-style:inset;
+      border-width:1px;
+      border-color:rgb(227, 235, 235);
+      height:80px;
+}
+footer{
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(235, 120, 221, 0.5) 40px);
+      border-top-style:inset;
+      border-width:1px;
+      border-color:rgb(227, 235, 235);
+      height:80px;
+}

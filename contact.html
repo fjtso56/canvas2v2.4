@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>お問い合わせ</title>
+</head>
+
+<body>
+  <header></header>
+
+  <form action="./confirm.php" method="post">
+<div class="form">
+  <div class="input-box">
+    <p class="form-item-label"><span class="form-item-label-required">必須</span>要件</p>
+    <div class="inline">
+      <input type="radio" name="matter" value="施設見学" required>施設見学
+      <input type="radio" name="matter" value="業務依頼">業務依頼
+      <input type="radio" name="matter" value="ご質問">ご質問
+      <input type="radio" name="matter" value="その他">その他
+    </div>
+  </div>
+  <div class="form-item">
+    <p class="form-item-label"><span class="form-item-label-required">必須</span>お名前</p>
+    <input type="text" name="name" class="form-item-input" placeholder="例）山田太郎" required name = "required">
+  </div>
+  <div class="form-item">
+    <p class="form-item-label"><span class="form-item-label-required">必須</span>電話番号</p>
+    <input type="text" name="phone-number" class="form-item-input" placeholder="例）000-0000-0000" required name = "required">
+  </div>
+  <div class="form-item">
+    <p class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</p>
+    <input type="email" name="mail-address" class="form-item-input" placeholder="例）example@xxxx.com" required name = "required">
+  </div>
+  <div class="form-item">
+    <p class="form-item-label-msg"><span class="form-item-label-required">必須</span>お問い合わせ内容</p>
+    <textarea class="form-item-textarea" name="inquery" required name = "required"></textarea>
+  </div>
+
+  <input type="submit" class="form-btn" value="確認する">
+
+  <div class="sep100px"></div>
+</div>
+</form> 
+<footer></footer>
+</body>
+</html>
